@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>css style</title>
+	<!--<link rel="stylesheet" type="text/css" href="style.css">--> Пока не надо
+	<style type="text/css">
+		
+	header li{
+		list-style: none;
+		float: right;
+		margin-left: 10px;
+
+
+	}	
+	a:link, a:visited {
+		text-decoration: none;
+		background-color: white;
+		margin: 20px;
+		border: 1px solid;
+		color: red;
+		display: block;
+		width: 200px;
+		text-align: center;
+		margin-bottom: 1px;
+}
+a:hover, a:active{
+	background-color: blue;
+	cursor: pointer; 
+}
+
+}
+	header li:nth-child(3):hover{
+		font-size: 30px;
+		cursor: pointer;
+
+	}
+
+section div:nth-child(1):hover{
+	cursor: pointer;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 30px;
+
+}
+
+
+
+#box {
+	background-color:yellow; 
+	padding: 10px 0%;
+	border: 0px solid red;
+	margin: 0px;
+	
+}
+#content{
+	background-color: green;
+	text-align: center;
+}
+#picture{
+	width: 400px;
+	height: 450px;
+	background-image: url("asanali.png");
+	transform-style: relative;
+	
+}
+p{
+	width: 300px;
+	height: 300px;
+	background-color: green;
+	border: 5px black solid;
+}
+
+@media (min-width: 1100px){
+	p{
+		width: 70%;
+	}
+}
+@media (min-width: 900px) and (max-width: 1099px){
+	p{
+		width: 50%;
+	}
+}
+#picture{
+	border: 5px black solid;
+}
+
+
+	</style>
+	
+</head>
+<body>
+	<header>
+	<ul>
+<li><a href="https://learn.shayhowe.com/html-css/getting-to-know-css/" target="_blank"> Get to know</a></li>
+<li><a href="https://git-scm.com/book/en/v2">Git book</a></li>
+<li><a href="https://pages.clearlydecoded.com/future-material-notifications">Future material</a></li>
+</ul>
+</header>
+<section>
+<div style="font-size: 3em"> Hello</div>
+<div> Okey</div>
+<span>World!</span>
+<h1 style="text-align: center;"> Center bitch</h1>
+</section>
+
+<section>
+	<div id="box">
+		<div id="content"> Dias the best</div>
+	</div>
+</section>
+<section>
+	<div id="picture">
+		
+	</div>
+</section>
+
+<p></p>
+</body>
+</html>
